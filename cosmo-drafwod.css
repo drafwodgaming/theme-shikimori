@@ -1,10 +1,5 @@
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_1.css");
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_2.css");
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_3.css");
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_4mob.css");
-
 /* ========================================
-   🎨 CORE VARIABLES + BASE STYLES (min-width: 1px)
+   🎨 CORE VARIABLES
    ======================================== */
 @media screen and (min-width: 1px) {
   html:root {
@@ -43,7 +38,7 @@
   }
 
   /* ========================================
-     👤 PROFILE (базовые стили)
+     👤 PROFILE
      ======================================== */
   .p-profiles-show .block.achievements {
     display: none !important;
@@ -649,7 +644,7 @@
 }
 
 /* ========================================
-   🖥️ PROFILE LARGE SCREEN (min-width: 1200px)
+   🖥️ PROFILE SCREEN 
    ======================================== */
 @media screen and (min-width: 1200px) {
   .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
